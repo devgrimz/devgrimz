@@ -1,22 +1,46 @@
-##  Olá, meu nome é Jhonatan!
+# SoftwareDeveloper (Java)
 
----
+```java
+package development;
 
-## 🚀 Minhas Skills
+public class SoftwareDeveloper {
 
-<code><img height="32" src="https://github.com/dotnet/vscode-csharp/blob/main/images/csharpIcon.png" alt="c#"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL"/></code>
+    private String name = "Jhonatan Decreci";
+    private int age = 26;
+    private boolean likesGames = true;
+    private String[] codeSkills = {"Java", "JavaScript", "SQL", "Python"};
 
+    // Getters and Setters
+    public String getName() {
+        return name;
+    }
 
-<img src="https://i.pinimg.com/736x/f5/d8/1d/f5d81d78c378a4dbca50660fdfea1968.jpg" width="300" height="400">
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public int getAge() {
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 
+    public boolean isLikesGames() {
+        return likesGames;
+    }
 
+    public void setLikesGames(boolean likesGames) {
+        this.likesGames = likesGames;
+    }
 
+    public String[] getCodeSkills() {
+        return codeSkills;
+    }
 
-
----
+    public void setCodeSkills(String[] codeSkills) {
+        this.codeSkills = codeSkills;
+    }
+}
+```
